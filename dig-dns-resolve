@@ -1,0 +1,5 @@
+# windows
+Resolve-DnsName -Name computerbase.de -Type any
+
+# linux
+dig +nocmd computerbase.de ns +noall +answer
