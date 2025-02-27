@@ -1,0 +1,5 @@
+# windows
+Measure-Command { flac -8f '.\.flac' }
+
+# linux
+time flac -8f .flac
